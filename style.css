@@ -45,7 +45,7 @@ header nav ul {
 
 }
 
-#image_quantity{
+#image_quantity {
     color: black;
     font-size: 2vh;
     font-weight: 700;
@@ -54,56 +54,60 @@ header nav ul {
 }
 
 
-
-.categories-name{
-    margin-left: auto;
-    margin-right: auto;
+.categories-name {
+    text-align: center;
 }
 
-.categories-content{
-    display: flex;
-    flex-grow: 1;
+.categories-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin-left: 5%;
     margin-right: 5%;
+    grid-row-gap: 5vh;
+
 }
 
-.game{
-    width: 25vh;
-    height: 40vh;
+.game {
+    width: 35vh;
+    height: auto;
     text-align: center;
     background: whitesmoke;
     border-radius: 3%;
     box-shadow: 0 0 2px;
+    justify-self: center;
+}
+
+.game:hover {
 
 }
 
-.game img{
-    height: 60%;
+.game img {
+    height: 30vh;
     margin-top: 10%;
 }
 
-.game-name{
+.game-name {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:85%;
+    font-size: 85%;
 }
 
-.game-price{
+.game-price {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
     font-weight: 700;
 }
 
-#Cart_Button{
+#Cart_Button {
     font-weight: 700;
     background: red;
     border-radius: 12%;
 
 }
 
-.Add_Cart_Button{
+.Add_Cart_Button {
     background: red;
     border-radius: 15%;
-    font-size:100%;
+    font-size: 100%;
     color: white;
     font-weight: 700;
     margin-bottom: 25%;

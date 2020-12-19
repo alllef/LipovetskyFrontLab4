@@ -60,5 +60,16 @@
       "platform": "PS4",
       "pathToImage": "images/Uncharted4.png"
     }
+  ],
+  "categories": [
+    {
+      "PS4": ["DaysGone","Horizon","GhostOfTsushima","SpiderMan","LastGuardian","Uncharted4"]
+    },
+    {
+      "Xbox One": ["WatchDogs"]
+    },
+    {
+      "PC": []
+    }
   ]
 }
