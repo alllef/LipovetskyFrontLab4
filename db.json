@@ -17,60 +17,48 @@
       "pathToImage": "images/WatchDogs.jpg"
     },
     {
+      "id": "DaysGone",
+      "name": "Days Gone",
+      "price": "39.99$",
+      "platform": "PS4",
+      "pathToImage": "images/Days-Gone.jpg"
+    },
+    {
       "id": "Horizon",
       "name": "Horizon: Zero Dawn",
       "price": "19.99$",
       "platform": "PS4",
-      "pathToImage": "Horizon-Zero-Dawn.jpg"
+      "pathToImage": "images/Horizon-Zero-Dawn.jpg"
     },
-    {
-      "id": "DaysGone",
-      "name": "Days Gone",
-      "price": "39.99$",
-      "platform": "PS4",
-      "pathToImage": "Days-Gone.jpg"
-    },
-    {
-      "id": "DaysGone",
-      "name": "Days Gone",
-      "price": "39.99$",
-      "platform": "PS4",
-      "pathToImage": "Days-Gone.jpg"
-    },
+
     {
       "id": "GhostOfTsushima",
       "name": "Ghost of Tsushima",
       "price": "49.99$",
       "platform": "PS4",
-      "pathToImage": "ghost-of-tsushima.jpg"
+      "pathToImage": "images/ghost-of-tsushima.jpg"
     },
-    {
-      "id": "LastOfUs2",
-      "name": "The Last of Us Part II",
-      "price": "49.99$",
-      "platform": "PS4",
-      "pathToImage": "ghost-of-tsushima.jpg"
-    },
+
     {
       "id": "SpiderMan",
       "name": "The Last of Us Part II",
       "price": "29.99$",
       "platform": "PS4",
-      "pathToImage": "spider-man.jpg"
+      "pathToImage": "images/spider-man.jpg"
     },
     {
       "id": "LastGuardian",
       "name": "The Last Guardian",
       "price": "19.99$",
       "platform": "PS4",
-      "pathToImage": "The-Last-Guardian.jpg"
+      "pathToImage": "images/The-Last-Guardian.jpg"
     },
     {
       "id": "Uncharted4",
       "name": "Uncharted 4: A Thief’s End",
       "price": "29.99$",
       "platform": "PS4",
-      "pathToImage": "Uncharted4.png"
+      "pathToImage": "images/Uncharted4.png"
     }
   ]
 }
