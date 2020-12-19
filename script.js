@@ -8,7 +8,6 @@ let processor = new TemplateProcessor();
 client.getData('games/WatchDogs').then(r => processor.render(processor.createGameTemplate(r)));
 
 
-document.body.innerHTML = user;
 /*<html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -19,3 +18,4 @@ document.body.innerHTML = user;
     </body>
 
 </html>*/
+
