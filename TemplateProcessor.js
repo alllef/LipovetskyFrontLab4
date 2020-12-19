@@ -1,9 +1,9 @@
 export let user = '<div>fuck</div>';
 
-class TemplateProcessor {
+ export class TemplateProcessor {
 
     render(view) {
-        document.querySelector("body").innerHTML = view;
+        document.body.innerHTML = view;
     }
 
     createGameTemplate(gameJSON) {
