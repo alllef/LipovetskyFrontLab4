@@ -100,14 +100,7 @@
       "name": "God of War",
       "price": "39.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/GodOfWar.jpg"
-    },
-    {
-      "id": "Halo",
-      "name": "Halo: The Master Chief Collection",
-      "price": "19.99$",
-      "platform": "Xbox One",
-      "pathToImage": "images/games/Halo.jpg"
+      "pathToImage": "images/games/God-Of-War.jpg"
     },
     {
       "id": "Halo",

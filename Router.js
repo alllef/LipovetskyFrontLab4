@@ -1,4 +1,3 @@
-
 export class Router {
     getCurrentState() {
         let viewName = '';
@@ -18,7 +17,8 @@ export class Router {
         };
     }
 
-    setState(viewName,endPointName){
-        window.location.hash="/"+"#"+viewName;
-}
+    setState(viewName, endPointName) {
+        window.location.hash = viewName;
+        console.log(window.location.hash);
+    }
 }
