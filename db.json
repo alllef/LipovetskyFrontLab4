@@ -63,13 +63,16 @@
   ],
   "categories": [
     {
-      "PS4": ["DaysGone","Horizon","GhostOfTsushima","SpiderMan","LastGuardian","Uncharted4"]
+      "platform": "PS4",
+      "games": ["DaysGone","Horizon","GhostOfTsushima","SpiderMan","LastGuardian","Uncharted4"]
     },
     {
-      "Xbox One": ["WatchDogs"]
+      "platform": "Xbox One",
+      "games": ["WatchDogs"]
     },
     {
-      "PC": []
+      "platform": "PC",
+      "games": []
     }
   ]
 }
