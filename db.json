@@ -14,21 +14,21 @@
       "name": "Watch Dogs 2",
       "price": "59.99$",
       "platform": "Xbox One",
-      "pathToImage": "images/WatchDogs.jpg"
+      "pathToImage": "images/games/WatchDogs.jpg"
     },
     {
       "id": "DaysGone",
       "name": "Days Gone",
       "price": "39.99$",
       "platform": "PS4",
-      "pathToImage": "images/Days-Gone.jpg"
+      "pathToImage": "images/games/Days-Gone.jpg"
     },
     {
       "id": "Horizon",
       "name": "Horizon: Zero Dawn",
       "price": "19.99$",
       "platform": "PS4",
-      "pathToImage": "images/Horizon-Zero-Dawn.jpg"
+      "pathToImage": "images/games/Horizon-Zero-Dawn.jpg"
     },
 
     {
@@ -36,7 +36,7 @@
       "name": "Ghost of Tsushima",
       "price": "49.99$",
       "platform": "PS4",
-      "pathToImage": "images/ghost-of-tsushima.jpg"
+      "pathToImage": "images/games/ghost-of-tsushima.jpg"
     },
 
     {
@@ -44,35 +44,105 @@
       "name": "The Last of Us Part II",
       "price": "29.99$",
       "platform": "PS4",
-      "pathToImage": "images/spider-man.jpg"
+      "pathToImage": "images/games/spider-man.jpg"
     },
     {
       "id": "LastGuardian",
       "name": "The Last Guardian",
       "price": "19.99$",
       "platform": "PS4",
-      "pathToImage": "images/The-Last-Guardian.jpg"
+      "pathToImage": "images/games/The-Last-Guardian.jpg"
     },
     {
       "id": "Uncharted4",
       "name": "Uncharted 4: A Thief’s End",
       "price": "29.99$",
       "platform": "PS4",
-      "pathToImage": "images/Uncharted4.png"
+      "pathToImage": "images/games/Uncharted4.png"
+    },
+    {
+      "id": "CrusaderKings",
+      "name": "Crusader Kings 3",
+      "price": "39.99$",
+      "platform": "PC",
+      "pathToImage": "images/games/CrusaderKings.jpg"
+    },
+    {
+      "id": "Cyberpunk",
+      "name": "Cyberpunk 2077",
+      "price": "49.99$",
+      "platform": "PC",
+      "pathToImage": "images/games/Cyberpunk.jpg"
+    },
+    {
+      "id": "FlightSimulator",
+      "name": "Microsoft Flight Simulator",
+      "price": "59.99$",
+      "platform": "PC",
+      "pathToImage": "images/games/FlightSimulator.jpg"
+    },
+    {
+      "id": "Forza",
+      "name": "Forza Horizon 4",
+      "price": "39.99$",
+      "platform": "Xbox One",
+      "pathToImage": "images/games/Forza.jpg"
+    },
+    {
+      "id": "Gears5",
+      "name": "Gears 5",
+      "price": "29.99$",
+      "platform": "Xbox One",
+      "pathToImage": "images/games/Gears5.jpg"
+    },
+    {
+      "id": "GodofWar",
+      "name": "God of War",
+      "price": "39.99$",
+      "platform": "PS4",
+      "pathToImage": "images/games/GodOfWar.jpg"
+    },
+    {
+      "id": "Halo",
+      "name": "Halo: The Master Chief Collection",
+      "price": "19.99$",
+      "platform": "Xbox One",
+      "pathToImage": "images/games/Halo.jpg"
+    },
+    {
+      "id": "Halo",
+      "name": "Halo: The Master Chief Collection",
+      "price": "19.99$",
+      "platform": "Xbox One",
+      "pathToImage": "images/games/Halo.jpg"
+    },
+    {
+      "id": "LastOfUs",
+      "name": "The Last of Us Part II",
+      "price": "39.99$",
+      "platform": "PS4",
+      "pathToImage": "images/games/Last-Of-Us-2.jpg"
+    },
+    {
+      "id": "Ori",
+      "name": "Ori and the Will of the Wisps",
+      "price": "29.99$",
+      "platform": "Xbox One",
+      "pathToImage": "images/games/Ori.jpg"
     }
-  ],
+    ],
   "categories": [
     {
       "id": "PS4",
-      "games": ["DaysGone","Horizon","GhostOfTsushima","SpiderMan","LastGuardian","Uncharted4"]
+      "games": ["DaysGone","Horizon","GhostOfTsushima","SpiderMan","LastGuardian","Uncharted4","LastOfUs","GodOfWar"]
     },
     {
       "id": "Xbox One",
-      "games": ["WatchDogs"]
+      "games": ["WatchDogs","Forza","Gears5","Ori","Halo"]
     },
     {
       "id": "PC",
-      "games": []
+      "games": ["CrusaderKings","Cyberpunk","FlightSimulator"]
     }
   ]
 }

@@ -3,8 +3,8 @@ import {Client} from "./Client.js";
 import {TemplateProcessor} from "./TemplateProcessor.js";
 import {Category} from "./Category.js";
 import {Router} from "./Router.js";
-import view from "./views/Game.js";
-
+import {catalogueView} from "./views/Catalogue.js";
+import {gameView} from "./views/Game.js";
 
 let client = new Client();
 let processor = new TemplateProcessor();
@@ -21,8 +21,12 @@ category.createCategoryTemplate("Xbox One");
 
 
 
-client.getData("games/WatchDogs")
-    .then(response=>processor.render(view(response)));
+client.getData("categories").then(response=>{
+    catalogueView(response).then(template=> {
+        processor.render(template);
+    })
+});
+
 
 
 /*<html lang="en">
