@@ -24,6 +24,11 @@ header {
     top: 0;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #header nav {
     height: 100%;
 }
@@ -34,6 +39,7 @@ header nav ul {
     flex-grow: 1;
     list-style: none;
     justify-content: center;
+
 
 }
 
@@ -75,6 +81,7 @@ header nav ul {
     border-radius: 3%;
     box-shadow: 0 0 2px;
     justify-self: center;
+    overflow: hidden;
 }
 
 .game:hover {

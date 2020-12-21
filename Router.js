@@ -1,24 +1,39 @@
 export class Router {
-    getCurrentState() {
+    getCurrentState(url) {
         let viewName = '';
-        let endpointName = '';
-        switch (window.location.hash.split('#')[1]) {
-            case 'products':
-                viewName = 'productsPage';
-                endpointName = 'posts';
+        let endPointName = '';
+        let hash = url.split('#')[1];
+        console.log(hash);
+        let hashParts = hash.split('/');
+        console.log((hashParts[0] === 'catalogue' && hashParts.length === 1));
+        switch (hashParts[0]) {
+            case  'games':
+                viewName = 'GameDescription';
+                endPointName = hash;
                 break;
+            case  'catalogue':
+                if(hashParts.length>1) {
+                    viewName = 'Category';
+                    endPointName = 'categories/' + hashParts[1];
+                }
+
+                else{
+                    viewName = 'Catalogue';
+                    endPointName = 'categories';
+                }
+
+                break;
+
             default:
+                window.location.hash = '';
                 break;
         }
 
         return {
             viewName,
-            endpointName
+            endPointName
         };
     }
 
-    setState(viewName, endPointName) {
-        window.location.hash = viewName;
-        console.log(window.location.hash);
-    }
+
 }

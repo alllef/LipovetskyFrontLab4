@@ -14,128 +14,177 @@
       "name": "Watch Dogs 2",
       "price": "59.99$",
       "platform": "Xbox One",
-      "pathToImage": "images/games/WatchDogs.jpg"
+      "pathToImage": "images/games/WatchDogs.jpg",
+      "releaseDate": "2016",
+      "developer": "Ubisoft Montreal"
     },
     {
       "id": "DaysGone",
       "name": "Days Gone",
       "price": "39.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/Days-Gone.jpg"
+      "pathToImage": "images/games/Days-Gone.jpg",
+      "releaseDate": "2019",
+      "developer": "Bend Studio"
     },
     {
       "id": "Horizon",
       "name": "Horizon: Zero Dawn",
       "price": "19.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/Horizon-Zero-Dawn.jpg"
+      "pathToImage": "images/games/Horizon-Zero-Dawn.jpg",
+      "releaseDate": "2017",
+      "developer": "Guerrilla Games"
     },
-
     {
       "id": "GhostOfTsushima",
       "name": "Ghost of Tsushima",
       "price": "49.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/ghost-of-tsushima.jpg"
+      "pathToImage": "images/games/ghost-of-tsushima.jpg",
+      "releaseDate": "2020",
+      "developer": "Sucker Punch Productions"
     },
-
     {
       "id": "SpiderMan",
-      "name": "The Last of Us Part II",
+      "name": "Spider Man",
       "price": "29.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/spider-man.jpg"
+      "pathToImage": "images/games/spider-man.jpg",
+      "releaseDate": "2018",
+      "developer": "Insomniac Games"
     },
     {
       "id": "LastGuardian",
       "name": "The Last Guardian",
       "price": "19.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/The-Last-Guardian.jpg"
+      "pathToImage": "images/games/The-Last-Guardian.jpg",
+      "releaseDate": "2016",
+      "developer": "SIE Japan Studio"
     },
     {
       "id": "Uncharted4",
       "name": "Uncharted 4: A Thief’s End",
       "price": "29.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/Uncharted4.png"
+      "pathToImage": "images/games/Uncharted4.png",
+      "releaseDate": "2016",
+      "developer": "Naughty Dog"
     },
     {
       "id": "CrusaderKings",
       "name": "Crusader Kings 3",
       "price": "39.99$",
       "platform": "PC",
-      "pathToImage": "images/games/CrusaderKings.jpg"
+      "pathToImage": "images/games/CrusaderKings.jpg",
+      "releaseDate": "2020",
+      "developer": "Paradox Development Studio"
     },
     {
       "id": "Cyberpunk",
       "name": "Cyberpunk 2077",
       "price": "49.99$",
       "platform": "PC",
-      "pathToImage": "images/games/Cyberpunk.jpg"
+      "pathToImage": "images/games/Cyberpunk.jpg",
+      "releaseDate": "2020",
+      "developer": "CD Projekt RED"
     },
     {
       "id": "FlightSimulator",
       "name": "Microsoft Flight Simulator",
       "price": "59.99$",
       "platform": "PC",
-      "pathToImage": "images/games/FlightSimulator.jpg"
+      "pathToImage": "images/games/FlightSimulator.jpg",
+      "releaseDate": "2020",
+      "developer": "Asobo Studio"
     },
     {
       "id": "Forza",
       "name": "Forza Horizon 4",
       "price": "39.99$",
       "platform": "Xbox One",
-      "pathToImage": "images/games/Forza.jpg"
+      "pathToImage": "images/games/Forza.jpg",
+      "releaseDate": "2018",
+      "developer": "Playground Games"
     },
     {
       "id": "Gears5",
       "name": "Gears 5",
       "price": "29.99$",
       "platform": "Xbox One",
-      "pathToImage": "images/games/Gears5.jpg"
+      "pathToImage": "images/games/Gears5.jpg",
+      "releaseDate": "2020",
+      "developer": "The Coalition"
     },
     {
       "id": "GodOfWar",
       "name": "God of War",
       "price": "39.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/God-Of-War.jpg"
+      "pathToImage": "images/games/God-Of-War.jpg",
+      "releaseDate": "2018",
+      "developer": "Santa Monica Studio"
     },
     {
       "id": "Halo",
       "name": "Halo: The Master Chief Collection",
       "price": "19.99$",
       "platform": "Xbox One",
-      "pathToImage": "images/games/Halo.jpg"
+      "pathToImage": "images/games/Halo.jpg",
+      "releaseDate": "2014",
+      "developer": "343 Industries"
     },
     {
       "id": "LastOfUs",
       "name": "The Last of Us Part II",
       "price": "39.99$",
       "platform": "PS4",
-      "pathToImage": "images/games/Last-Of-Us-2.jpg"
+      "pathToImage": "images/games/Last-Of-Us-2.jpg",
+      "releaseDate": "2020",
+      "developer": "Naughty Dog"
     },
     {
       "id": "Ori",
       "name": "Ori and the Will of the Wisps",
       "price": "29.99$",
       "platform": "Xbox One",
-      "pathToImage": "images/games/Ori.jpg"
+      "pathToImage": "images/games/Ori.jpg",
+      "releaseDate": "2020",
+      "developer": "Moon Studios"
     }
-    ],
+  ],
   "categories": [
     {
       "id": "PS4",
-      "games": ["DaysGone","Horizon","GhostOfTsushima","SpiderMan","LastGuardian","Uncharted4","LastOfUs","GodOfWar"]
+      "games": [
+        "DaysGone",
+        "Horizon",
+        "GhostOfTsushima",
+        "SpiderMan",
+        "LastGuardian",
+        "Uncharted4",
+        "LastOfUs",
+        "GodOfWar"
+      ]
     },
     {
       "id": "Xbox One",
-      "games": ["WatchDogs","Forza","Gears5","Ori","Halo"]
+      "games": [
+        "WatchDogs",
+        "Forza",
+        "Gears5",
+        "Ori",
+        "Halo"
+      ]
     },
     {
       "id": "PC",
-      "games": ["CrusaderKings","Cyberpunk","FlightSimulator"]
+      "games": [
+        "CrusaderKings",
+        "Cyberpunk",
+        "FlightSimulator"
+      ]
     }
   ]
 }
