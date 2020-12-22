@@ -156,7 +156,8 @@
   ],
   "categories": [
     {
-      "catalogue": [
+      "id": "catalogue",
+     "subcategories" : [
         {
           "id": "PS4",
           "games": [

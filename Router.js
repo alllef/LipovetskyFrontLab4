@@ -42,13 +42,10 @@ export class Router {
                 break;
 
             case 'order':
-                if (hashParts.length > 1)
-                    viewName = "fuck";
 
-                else {
                     viewName = "CheckoutForm";
                     endPointName = 'categories/catalogue';
-                }
+
 
                 break;
             default:
