@@ -156,36 +156,41 @@
   ],
   "categories": [
     {
-      "id": "PS4",
-      "games": [
-        "DaysGone",
-        "Horizon",
-        "GhostOfTsushima",
-        "SpiderMan",
-        "LastGuardian",
-        "Uncharted4",
-        "LastOfUs",
-        "GodOfWar"
+      "catalogue": [
+        {
+          "id": "PS4",
+          "games": [
+            "DaysGone",
+            "Horizon",
+            "GhostOfTsushima",
+            "SpiderMan",
+            "LastGuardian",
+            "Uncharted4",
+            "LastOfUs",
+            "GodOfWar"
+          ]
+        },
+        {
+          "id": "Xbox One",
+          "games": [
+            "WatchDogs",
+            "Forza",
+            "Gears5",
+            "Ori",
+            "Halo"
+          ]
+        },
+        {
+          "id": "PC",
+          "games": [
+            "CrusaderKings",
+            "Cyberpunk",
+            "FlightSimulator"
+          ]
+        }
       ]
     },
-    {
-      "id": "Xbox One",
-      "games": [
-        "WatchDogs",
-        "Forza",
-        "Gears5",
-        "Ori",
-        "Halo"
-      ]
-    },
-    {
-      "id": "PC",
-      "games": [
-        "CrusaderKings",
-        "Cyberpunk",
-        "FlightSimulator"
-      ]
-    },
+
     {
       "id": "Best price",
        "games": [

@@ -11,20 +11,19 @@ window.addEventListener("hashchange", event => {
 
     processor.render(`<img src = "images/giphy.gif">`);
     let state = router.getCurrentState(event.newURL);
-    if (state.viewName !== "fuck")
-        downloadModule(state);
-    else console.log("fuck");
+    downloadModule(state);
 
 
 });
 
 document.addEventListener("DOMContentLoaded", event => {
-    processor.render(`<img src = "images/giphy.gif">`);
 
-        let state = router.getCurrentState(window.location.hash);
-        if (state.viewName !== "fuck")
-            downloadModule(state);
-        else console.log("fuck");
+    processor.render(`<img src = "images/giphy.gif">`);
+    localStorage.clear();
+
+    let state = router.getCurrentState(window.location.hash);
+    downloadModule(state);
+
 
 });
 

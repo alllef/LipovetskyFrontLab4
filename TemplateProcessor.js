@@ -11,32 +11,19 @@ export class TemplateProcessor {
             let elements = document.querySelectorAll('.Add_Cart_Button');
 
             for (let elem of elements) {
-                elem.addEventListener("click", event => {
-                    Cart.incrementCart();
-                    Cart.saveInformation(elem.id);
-                });
+                elem.addEventListener("click", event => Cart.saveInformation(elem.id));
             }
 
         }
 
-        if (document.forms[0] !== undefined) document.forms[0].submitButton.onclick = async function () {
-            console.log(document.forms[0]);
-
+        if (document.forms[0] !== undefined) document.forms[0].submitButton.onsubmit = async function () {
 
             let response = await fetch('https://my-json-server.typicode.com/alllef/LipovetskyFrontLab4/posts', {
                 method: 'POST'
             });
-            let template = ``;
-
-            for (let formPart of document.forms[0].elements) {
-                template += formPart.value;
-            }
-
-
-            document.querySelector("#main").innerHTML = `<div>${template}</div>`;
-            console.log(template);
+           if (!response.ok) alert("An error occurred when submitting");
             Cart.clear();
-            window.location.hash += "/" + response.status;
+
         };
     }
 

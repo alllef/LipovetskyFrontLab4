@@ -20,19 +20,34 @@ export class Router {
             case  'catalogue':
                 if (hashParts.length > 1) {
                     viewName = 'Category';
-                    endPointName = 'categories/' + hashParts[1];
+                    endPointName = 'categories/catalogue' + hashParts[1];
                 } else {
                     viewName = 'Catalogue';
-                    endPointName = 'categories';
+                    endPointName = 'categories/catalogue';
                 }
                 break;
+
+            case 'cart':
+
+                if(JSON.parse(localStorage.getItem("cart"))==null){
+                    viewName = 'Catalogue';
+                    endPointName = 'categories/catalogue';
+                }
+
+                else{
+                viewName = 'CartTemplate';
+                endPointName = 'games';
+                }
+
+                break;
+
             case 'order':
                 if (hashParts.length > 1)
                     viewName = "fuck";
 
                 else {
                     viewName = "CheckoutForm";
-                    endPointName = 'categories';
+                    endPointName = 'categories/catalogue';
                 }
 
                 break;
