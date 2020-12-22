@@ -185,6 +185,14 @@
         "Cyberpunk",
         "FlightSimulator"
       ]
+    },
+    {
+      "id": "Best price",
+       "games": [
+         "Cyberpunk",
+         "LastOfUs",
+         "CrusaderKings"
+       ]
     }
   ]
 }
