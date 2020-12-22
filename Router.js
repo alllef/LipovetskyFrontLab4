@@ -6,8 +6,10 @@ export class Router {
         let viewName = '';
         let endPointName = '';
         let hash = url.split('#')[1];
-        let hashParts = hash.split('/');
+        let hashParts;
 
+        if(hash!==undefined) hashParts = hash.split('/');
+         else hashParts =[''];
 
         switch (hashParts[0]) {
             case  'games':
@@ -15,33 +17,28 @@ export class Router {
                 endPointName = hash;
                 break;
 
-            case '':{
-            viewName = 'Category'
-            }
-
             case  'catalogue':
                 if (hashParts.length > 1) {
                     viewName = 'Category';
                     endPointName = 'categories/' + hashParts[1];
-                }
-
-                else {
+                } else {
                     viewName = 'Catalogue';
                     endPointName = 'categories';
                 }
                 break;
             case 'order':
-                if (hashParts.length>1)
-                    viewName="fuck";
+                if (hashParts.length > 1)
+                    viewName = "fuck";
 
-                else{
+                else {
                     viewName = "CheckoutForm";
                     endPointName = 'categories';
                 }
 
                 break;
             default:
-                window.location.hash = '';
+                viewName = 'Category'
+                endPointName = 'categories/Best price';
                 break;
         }
 

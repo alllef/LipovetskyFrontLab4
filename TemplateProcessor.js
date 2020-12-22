@@ -11,7 +11,6 @@ export class TemplateProcessor {
             let elements = document.querySelectorAll('.Add_Cart_Button');
 
             for (let elem of elements) {
-                //localStorage.clear();
                 elem.addEventListener("click", event => {
                     Cart.incrementCart();
                     Cart.saveInformation(elem.id);

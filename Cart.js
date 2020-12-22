@@ -1,3 +1,6 @@
+import {default as gameView} from "./views/Game.js";
+import {Client} from "./Client.js";
+
 export class Cart {
     static productsNumber = 0;
 
@@ -12,6 +15,23 @@ export class Cart {
         this.productsNumber = 0;
         localStorage.clear();
         document.getElementById("Cart_quantity").innerText = this.productsNumber;
+    }
+
+    static async getInformation() {
+        localStorage.removeItem("language");
+
+        let productIds = JSON.parse(localStorage.getItem("cart"));
+        let totalPrice = 0;
+        let contentTemplate = '';
+        let client = new Client();
+
+        for (let i = 0; i < data.games.length; i++) {
+            let gameData = await client.getData("games/" + productIds[i].id);
+            totalPrice += gameData.price;
+            contentTemplate += gameView(gameData);
+        }
+
+        return contentTemplate;
     }
 
     static saveInformation(id) {
@@ -32,3 +52,4 @@ export class Cart {
         localStorage.setItem("cart", JSON.stringify(productIds));
     }
 }
+

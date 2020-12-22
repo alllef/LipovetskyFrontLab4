@@ -24,7 +24,7 @@ export default function view() {
   
 </select>
 </div>
-<input type="button" name="submitButton"  value="Order"/>
+<input type="submit" name="submitButton"  value="Order"/>
 </form>`
 }
 

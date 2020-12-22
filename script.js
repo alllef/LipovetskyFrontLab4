@@ -8,21 +8,24 @@ let processor = new TemplateProcessor();
 let router = new Router();
 
 window.addEventListener("hashchange", event => {
+
     processor.render(`<img src = "images/giphy.gif">`);
-    if(window.location.hash===undefined) window.location.hash='';
     let state = router.getCurrentState(event.newURL);
     if (state.viewName !== "fuck")
         downloadModule(state);
     else console.log("fuck");
+
+
 });
 
 document.addEventListener("DOMContentLoaded", event => {
     processor.render(`<img src = "images/giphy.gif">`);
-    if(window.location.hash===undefined) window.location.hash='';
-    let state = router.getCurrentState(window.location.hash);
-    if (state.viewName !== "fuck")
-        downloadModule(state);
-    else console.log("fuck");
+
+        let state = router.getCurrentState(window.location.hash);
+        if (state.viewName !== "fuck")
+            downloadModule(state);
+        else console.log("fuck");
+
 });
 
 async function downloadModule(state) {
