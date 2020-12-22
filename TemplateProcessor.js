@@ -21,22 +21,14 @@ export class TemplateProcessor {
             let response = await fetch('https://my-json-server.typicode.com/alllef/LipovetskyFrontLab4/posts', {
                 method: 'POST'
             });
+
            if (!response.ok) alert("An error occurred when submitting");
             Cart.clear();
-
         };
     }
 
 }
 
 
-function sleep(milliseconds)
-{
-    let start = new Date().getTime();
-    for (let i = 0; i < 1e7; i++) {
-        if ((new Date().getTime() - start) > milliseconds) {
-            break;
-        }
-    }
-}
+
 

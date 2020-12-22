@@ -26,11 +26,29 @@ export class Router {
                     endPointName = 'categories';
                 }
                 break;
+            case 'cart':
+
+                if(localStorage.getItem("cart")===null){
+                    viewName = 'Catalogue';
+                    endPointName = 'categories';
+                }
+
+                else{
+                    viewName = 'CartTemplate';
+                    endPointName= 'posts';
+                }
+
+                break;
+
             case 'order':
-                if (hashParts.length > 1)
-                    viewName = "fuck";
+
+                if(localStorage.getItem("cart")===null){
+                    viewName = 'Catalogue';
+                    endPointName = 'categories';
+                }
 
                 else {
+
                     viewName = "CheckoutForm";
                     endPointName = 'categories';
                 }

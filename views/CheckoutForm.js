@@ -1,7 +1,7 @@
 import {} from "../Client.js";
 import {default as cartView} from "./CartTemplate.js";
 export default async function view() {
-    return `<div id ="Full-form">
+    return `
 <form id ="CheckoutForm">
 
 <input type = "tel" name ="Telephone" placeholder="Telephone" class="form-part" pattern="[0]{1}[0-9]{9}" required>
@@ -27,10 +27,10 @@ export default async function view() {
   
 </select>
 </div>
-<input type="submit" name="submitButton"  class ="Add_Cart_Button"  value="Order"/>
+<input type="submit" name="submitButton"    value="Order"/>
 </form>
-${await cartView('')}
-</div>`
+
+`
 }
 
 

@@ -8,7 +8,7 @@ Release date: ${data.releaseDate}<br>
 Developer: ${data.developer}<br>
 Description: <br>
 Price: ${data.price}
-<div class ="Add_Cart_Button">Add to cart</div>
+<input type = "button" id = "${data.id}" class ="Add_Cart_Button"  value="Add to cart">
 </div>
 </div>`
 }

@@ -23,7 +23,7 @@ header {
     color: whitesmoke;
     position: sticky;
     height: 10vh;
-
+    overflow: hidden;
     top: 0;
 }
 
@@ -134,7 +134,7 @@ header nav ul li {
 
 .game-description {
     padding: 5%;
-    background: beige;
+    background: grey;
     line-height: 1.5;
     display: flex;
     font-family: 'Open Sans', sans-serif;
@@ -171,9 +171,9 @@ header nav ul li {
     box-shadow: 0 0 4px;
     background: whitesmoke;
     border-radius: 3%;
-
+    height: 100vh;
+    width: 90%;
     margin: auto;
-    height: inherit;
     overflow-y: scroll;
 }
 
@@ -204,12 +204,6 @@ header nav ul li {
     height: 100%;
 }
 
-#Full-form {
-    display: flex;
-    flex-grow: 1;
-    margin: 3%;
-    height: 70%;
-}
 
 #CheckoutForm {
     overflow: hidden;
