@@ -9,7 +9,7 @@ export class Router {
         let hashParts;
 
         if(hash!==undefined) hashParts = hash.split('/');
-         else hashParts =[''];
+        else hashParts =[''];
 
         switch (hashParts[0]) {
             case  'games':
@@ -20,32 +20,20 @@ export class Router {
             case  'catalogue':
                 if (hashParts.length > 1) {
                     viewName = 'Category';
-                    endPointName = 'categories/catalogue' + hashParts[1];
+                    endPointName = 'categories/' + hashParts[1];
                 } else {
                     viewName = 'Catalogue';
-                    endPointName = 'categories/catalogue';
+                    endPointName = 'categories';
                 }
                 break;
-
-            case 'cart':
-
-                if(JSON.parse(localStorage.getItem("cart"))==null){
-                    viewName = 'Catalogue';
-                    endPointName = 'categories/catalogue';
-                }
-
-                else{
-                viewName = 'CartTemplate';
-                endPointName = 'games';
-                }
-
-                break;
-
             case 'order':
+                if (hashParts.length > 1)
+                    viewName = "fuck";
 
+                else {
                     viewName = "CheckoutForm";
-                    endPointName = 'categories/catalogue';
-
+                    endPointName = 'categories';
+                }
 
                 break;
             default:

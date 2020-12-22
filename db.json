@@ -5,9 +5,7 @@
       "title": "hello"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  },
+
   "games": [
     {
       "id": "WatchDogs",
@@ -156,49 +154,43 @@
   ],
   "categories": [
     {
-      "id": "catalogue",
-     "subcategories" : [
-        {
-          "id": "PS4",
-          "games": [
-            "DaysGone",
-            "Horizon",
-            "GhostOfTsushima",
-            "SpiderMan",
-            "LastGuardian",
-            "Uncharted4",
-            "LastOfUs",
-            "GodOfWar"
-          ]
-        },
-        {
-          "id": "Xbox One",
-          "games": [
-            "WatchDogs",
-            "Forza",
-            "Gears5",
-            "Ori",
-            "Halo"
-          ]
-        },
-        {
-          "id": "PC",
-          "games": [
-            "CrusaderKings",
-            "Cyberpunk",
-            "FlightSimulator"
-          ]
-        }
+      "id": "PS4",
+      "games": [
+        "DaysGone",
+        "Horizon",
+        "GhostOfTsushima",
+        "SpiderMan",
+        "LastGuardian",
+        "Uncharted4",
+        "LastOfUs",
+        "GodOfWar"
       ]
     },
-
+    {
+      "id": "Xbox One",
+      "games": [
+        "WatchDogs",
+        "Forza",
+        "Gears5",
+        "Ori",
+        "Halo"
+      ]
+    },
+    {
+      "id": "PC",
+      "games": [
+        "CrusaderKings",
+        "Cyberpunk",
+        "FlightSimulator"
+      ]
+    },
     {
       "id": "Best price",
-       "games": [
-         "Cyberpunk",
-         "LastOfUs",
-         "CrusaderKings"
-       ]
+      "games": [
+        "Cyberpunk",
+        "LastOfUs",
+        "CrusaderKings"
+      ]
     }
   ]
 }
